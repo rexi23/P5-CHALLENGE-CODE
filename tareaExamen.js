@@ -96,11 +96,12 @@ function minSum(a) {
 function arregloDeObjetos(n) {
     let array = [];
     for (let i = 1; i <= n; i++) {
-        o =
-            o["valor"] = i
+        let o = {};
+        o["valor"] = i
         array.push({ "valor": i })
     }
     return array;
+}
 }
 
 function arregloDeObjetos2(n, p) {
